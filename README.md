@@ -5,7 +5,12 @@ https://github.com/DanielRosenwasser/React-TypeScript-Tutorial
 npm install -g create-react-app
 create-react-app autoformation-react  --scripts-version=react-scripts-ts
 
+Then, to serve the website directly:
+npm run build
+npm i -g serve
+serve -s build
 
+and the website is immediately available on localhost:5000
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
