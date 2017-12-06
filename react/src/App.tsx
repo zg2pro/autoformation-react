@@ -14,7 +14,6 @@ class App extends React.Component {
         </div>
         <p className="App-intro">
           Nice one, zg2pro !
-            "this.props.match.params.redirectParam"
         </p>
       </div>
     );
