@@ -1,9 +1,9 @@
-# autoformation-react
+# interviews-glossary
 
 https://github.com/DanielRosenwasser/React-TypeScript-Tutorial
 
 npm install -g create-react-app
-create-react-app autoformation-react  --scripts-version=react-scripts-ts
+create-react-app interviews-glossary  --scripts-version=react-scripts-ts
 
 Then, to serve the website directly:
 npm run build
