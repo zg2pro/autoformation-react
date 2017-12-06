@@ -1,28 +1,28 @@
 image: node:8.4
 before_script:
-  - npm i -g create-react-app
   - cd react
+  - npm install -g create-react-app
 stages:
   - prepare
   - build
   - deploy
 cache:
   paths:
-    - node_modules/
+    - react/node_modules/
 install_dependencies:
   stage: prepare
   script:
     - npm install
   artifacts:
     paths:
-      - node_modules/
+      - react/node_modules/
 build:
   stage: build
   script:
     - npm run build
   artifacts:
     paths:
-      - dist/
+      - react/build/
   only:
     - master
   tags:
@@ -32,7 +32,7 @@ pages:
   dependencies:
     - build
   script:
-    - cp -R build/* ../public
+    - cp -R build/* ../public/
   only:
     - master
   tags:
