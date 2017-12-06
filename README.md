@@ -2,7 +2,7 @@
 
 [![build status](https://gitlab.com/zg2pro/interviews-glossary/badges/master/build.svg)](https://gitlab.com/zg2pro/interviews-glossary/commits/master)
 
-The site is deployed at : https://zg2pro.gitlab.io/interviews-glossary/
+The site is deployed at : https://zg2pro.gitlab.io/interviews-glossary?q=test+one
 
 
 https://github.com/DanielRosenwasser/React-TypeScript-Tutorial
