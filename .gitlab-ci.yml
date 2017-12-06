@@ -32,6 +32,7 @@ pages:
   dependencies:
     - build
   script:
+    - mkdir ../public/
     - cp -R build/* ../public/
   only:
     - master
