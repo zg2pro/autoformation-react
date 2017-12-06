@@ -1,6 +1,7 @@
 image: node:8.4
 before_script:
   - npm i -g create-react-app
+  - cd react
 stages:
   - prepare
   - build
@@ -31,7 +32,7 @@ pages:
   dependencies:
     - build
   script:
-    - echo "hello world"
+    - cp -R build/* ../public
   only:
     - master
   tags:
