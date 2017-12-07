@@ -13,12 +13,14 @@
     "build-serve": "npm run clean && npm run build && npm run serve"
   },
   "dependencies": {
+    "json-query": "^2.2.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts-ts": "2.8.0"
   },
   "devDependencies": {
     "@types/jest": "^21.1.8",
+    "@types/json-query": "^2.2.0",
     "@types/node": "^8.0.54",
     "@types/react": "^16.0.27",
     "@types/react-dom": "^16.0.3",

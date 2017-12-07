@@ -1,7 +1,8 @@
 import * as React from 'react';
-import './App.css';
+import './app.css';
+import Engine from "../engine/engine";
 
-const logo = require('./logo.svg');
+const logo = require('../logo.svg');
 
 class App extends React.Component {
 
@@ -9,7 +10,8 @@ class App extends React.Component {
 
     constructor(props: any) {
         super(props);
-        this.state = {value: this.keywords(window.location.search.substring(1)).join(' ')};
+        var arrayKeywords = this.keywords(window.location.search.substring(1));
+        this.state = {value: arrayKeywords.join(' '), array: arrayKeywords};
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -25,16 +27,10 @@ class App extends React.Component {
                     </div>
                     <p className="App-intro">
                         Your search:
-                        <input type="text" value={this.state.value} onChange={this.handleChange} name="q" />
+                        <input type="text" value={this.state.value} onChange={this.handleChange} name="q"/>
                         <input type="submit" value="Search"/>
                     </p>
-                    <p className="left">
-                        Results:<br/><br/>
-                        Question 1<br/>
-                        Answer 1<br/><br/>
-                        Question 2<br/>
-                        Answer 2
-                    </p>
+                    <Engine />
                 </div>
             </form>
         );

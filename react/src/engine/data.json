@@ -1,0 +1,40 @@
+{
+  "parsable": [
+    {
+      "question": "qu'apporte le Java8 sur les versions antérieures ?",
+      "answer": "les lambdas et la mémoire hors-tas (en dehors de la pile java)"
+    },
+    {
+      "question": "quelle exception disparait grâce à la mémoire hors-tas apparue en java8 ?",
+      "answer": "PermGen (OutOfMemory Error)"
+    },
+    {
+      "question": "Comment gérez vous les transactions dans un framework JSF ?",
+      "answer": "xxxx"
+    },
+    {
+      "question": "Quelle différence entre un verrou optimiste et un verrou pessimiste ?",
+      "answer": "yyyy"
+    },
+    {
+      "question": "Quels sont les différents types de propagation d'une transaction ?",
+      "answer": "zzzz"
+    },
+    {
+      "question": "Définition de la transaction et applications",
+      "answer": "tttt"
+    },
+    {
+      "question": "Quelle question technique poser à un candidat passant un entretien dans notre contexte ?",
+      "answer": "uuuu"
+    },
+    {
+      "question": "Le poste de scrum master est toujours à pourvoir, pourriez-vous être à la fois leader technique et scrum master ?",
+      "answer": "ppppp"
+    },
+    {
+      "question": "Quel genre de tech lead seriez-vous ?",
+      "answer": "ssssssssss"
+    }
+  ]
+}
