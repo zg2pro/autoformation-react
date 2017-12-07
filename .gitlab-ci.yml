@@ -19,6 +19,7 @@ install_dependencies:
 build:
   stage: build
   script:
+    - unset CI
     - npm run build
   artifacts:
     paths:
