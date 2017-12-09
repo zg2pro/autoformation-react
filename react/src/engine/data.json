@@ -35,6 +35,106 @@
     {
       "question": "Quel genre de tech lead seriez-vous ?",
       "answer": "ssssssssss"
+    },
+    {
+      "question": "Dans quel langage déveeloppe t-on les applications Angular ?",
+      "answer": "typescript"
+    },
+    {
+      "question": "Quelle est la différence entre typescript et javascript ?",
+      "answer": "wwwwwwwwwww"
+    },
+    {
+      "question": "Qu'est-ce que la modularité ? Quelles sont les conséquences de la modularité ? Quels outils permettent d'inclure ou de générer des modules ? Quelles commandes ?",
+      "answer": "xxxxxxxxx"
+    },
+    {
+      "question": "Quelle est la différence entre les dependencies et les devDependencies ?",
+      "answer": "xxxxhh"
+    },
+    {
+      "question": "Quel module permet la navigation dans Angular ?",
+      "answer": "Routing: il mappe les chemins avec les composants / les pages"
+    },
+    {
+      "question": "Quel module est le pendent de bootstrap et contient la librairie des widgets pour Angular ?",
+      "answer": "Angular material"
+    },
+    {
+      "question": "Différence entre karma, jasmine et protractor ?",
+      "answer": "jdjdbfùjfm"
+    },
+    {
+      "question": "Quelle convention basée sur le protocole HTTP permet à Angular de dialoguer avec le serveur ?",
+      "answer": "REST"
+    },
+    {
+      "question": "Quelles sont les différentes methodes de la convention REST ?",
+      "answer": "GET, POST, PUT, DELETE sont les principales, il y a aussi HEAD, PATCH etc..."
+    },
+    {
+      "question": "Qu'est-ce qu'un pipe dans Angular ?",
+      "answer": "rrrrrrrrrr"
+    },
+    {
+      "question": "Qu'appelle t-on ELK ?",
+      "answer": "rrrrrrrrrr"
+    },
+    {
+      "question": "Que fait elasticsearch ? que fait logstash ? que fait kibana ?",
+      "answer": "hkkh"
+    },
+    {
+      "question": "Que fait elasticsearch ? que fait logstash ? que fait kibana ?",
+      "answer": "hkkh"
+    },
+    {
+      "question": "Quelle différence entre une queue et un topic ?",
+      "answer": "hkkhzzz"
+    },
+    {
+      "question": "Que trouve-t-on dans un message JMS ?",
+      "answer": "header, properties, body"
+    },
+    {
+      "question": "Différence entre JMS et ActiveMQ ?",
+      "answer": "hzzzaaaa"
+    },
+    {
+      "question": "Quels sont les 2 types d'EJB session ?",
+      "answer": "stateless et stateful"
+    },
+    {
+      "question": "A quoi servent les annotations @Remote et @Local ? et @PostConstruct ?",
+      "answer": "xsssssss"
+    },
+    {
+      "question": "En SOA, comment appelle-t-on le contrat d'échange entre serveur et client ?",
+      "answer": "wsdl: web services description language"
+    },
+    {
+      "question": "Quelles librairies utilisez vous pour exposer les services SOAP ?",
+      "answer": "jjjjjjjjjj"
+    },
+    {
+      "question": "Quel outil vous sert à tester vos services SOAP ?",
+      "answer": "jjjjjjjjjj"
+    },
+    {
+      "question": "En SQL, vous avez une table de personnes avec tous les prénoms des gens, se répétant, nous voulons obtenir pour chaque prénom le nombre d'occurrences, comment écrire la requête ?",
+      "answer": "select prenom, count(*) from personnes group by prenom"
+    },
+    {
+      "question": "Qu'est le $scope en AngularJs ?",
+      "answer": "qqqqqq"
+    },
+    {
+      "question": "Qu'est-ce qu'une directive dans AngularJs ?",
+      "answer": "qqqqqqee"
+    },
+    {
+      "question": "Qu'est-ce qu'un callback en Js ?",
+      "answer": "qqqqqqeezzzz"
     }
   ]
 }
